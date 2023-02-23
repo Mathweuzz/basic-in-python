@@ -87,7 +87,7 @@ class Position:
 # TOKENS
 #######################################
 
-TT_INT			= 'INT'
+TT_INT		= 'INT'
 TT_FLOAT    = 'FLOAT'
 TT_PLUS     = 'PLUS'
 TT_MINUS    = 'MINUS'
@@ -95,7 +95,7 @@ TT_MUL      = 'MUL'
 TT_DIV      = 'DIV'
 TT_LPAREN   = 'LPAREN'
 TT_RPAREN   = 'RPAREN'
-TT_EOF			= 'EOF'
+TT_EOF		= 'EOF'
 
 class Token:
 	def __init__(self, type_, value=None, pos_start=None, pos_end=None):
